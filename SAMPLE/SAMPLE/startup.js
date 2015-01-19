@@ -1,0 +1,1 @@
+﻿var HANDLERS = [	{		'pattern':'^/rsvg/topdf',		'path':getFolder().path + 'rsvg/index.js',		'function':'toPDF'	},	{		'pattern':'^/rsvg/topng',		'path':getFolder().path + 'rsvg/index.js',		'function':'toPNG'	}	]HANDLERS.forEach(function(h, i){	addHttpRequestHandler(h.pattern, h.path, h['function']);});
