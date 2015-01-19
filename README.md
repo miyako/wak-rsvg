@@ -49,3 +49,9 @@ Vaild properties for the options object are:
 * input (string)
 * output (string)
 
+Example (HTML)
+--------------
+1. Open the file "index.html" in the Web Folder.
+2. Drag and drop an SVG; there is a sample document in /Resources/sample.pdf.
+3. A link "Open PDF" will appear.
+4. Click it. The PDF will show in the browser. (tested Safari, FireFox, Chrome).
