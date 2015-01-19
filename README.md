@@ -49,6 +49,6 @@ Vaild properties for the options object are:
 * input (string)
 * output (string)
 
-If no input is provided, stdIn is used. (string or Bufffer).
+If no input is provided, stdIn is used. (String or Bufffer).
 If no output is provided, stdOut is used.
 -----
