@@ -35,3 +35,20 @@ var out = BinaryStream(FileSystemSync('Desktop').path + generateUUID() + '.pdf',
 out.putBlob(result.console.stdOut);
 out.close();
 ```
+
+Vaild properties for the options object are:
+
+* dpi_x (number)
+* dpi_y (number)
+* zoom_x (number)
+* zoom_y (number)
+* width (number)
+* height (number)
+* keep_aspect_ratio (boolean)
+* base_url (string)
+* input (string)
+* output (string)
+
+If no input is provided, stdIn is used. (string or Bufffer).
+If no output is provided, stdOut is used.
+-----
