@@ -31,7 +31,7 @@ src = src ? src.getBuffer(src.getSize()) : null;
 
 var result = svg.toPDF(src, options);
 
-var out = BinaryStream(FileSystemSync('Desktop').path + generateUUID() + '.pdf', 'write');
+var out = BinaryStream(outPDFPath, 'write');
 out.putBlob(result.console.stdOut);
 out.close();
 ```
