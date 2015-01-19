@@ -55,3 +55,7 @@ Example (HTML)
 2. Drag and drop an SVG; there is a sample document in /Resources/sample.pdf.
 3. A link "Open PDF" will appear.
 4. Click it. The PDF will show in a new browser tab. (tested Safari, FireFox, Chrome).
+
+![](https://github.com/miyako/wak-rsvg/blob/master/images/1.png)
+![](https://github.com/miyako/wak-rsvg/blob/master/images/2.png)
+![](https://github.com/miyako/wak-rsvg/blob/master/images/3.png)
