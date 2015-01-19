@@ -54,4 +54,4 @@ Example (HTML)
 1. Open the file "index.html" in the Web Folder.
 2. Drag and drop an SVG; there is a sample document in /Resources/sample.pdf.
 3. A link "Open PDF" will appear.
-4. Click it. The PDF will show in the browser. (tested Safari, FireFox, Chrome).
+4. Click it. The PDF will show in a new browser tab. (tested Safari, FireFox, Chrome).
